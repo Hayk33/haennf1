@@ -1801,8 +1801,8 @@ input, select, textarea {
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
 				height: calc(40vh - 2em);
-				min-height: 20em;
-				width: 33.33333%;
+				/* min-height: 20em;
+				width: 33.33333%; */
 			}
 
 				#main .thumb:nth-child(1) {
@@ -2048,3 +2048,7 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+/* Videos */
+.video-size{
+	width: 100%;
+}
